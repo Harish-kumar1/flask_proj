@@ -1,0 +1,38 @@
+body
+{
+ background-color: black;
+}
+
+.main
+{
+ width: 500px;
+ height: 150px;
+ border: 2px solid white;
+ margin-left: 375px;
+ margin-top: 200px;
+ border-radius: 25px;
+}
+
+#value
+{
+ margin-left: 120px;
+ margin-top: 50px;
+}
+
+#sub
+{
+ margin-top: 10px;
+ margin-left: 120px;
+}
+
+#clear
+{
+ margin-top: 10px;
+ margin-left: 30px;
+}
+
+#output
+{
+ color: white;
+ margin-left: 500px;
+}

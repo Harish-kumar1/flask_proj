@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>To-Do-List</title>
+ <meta charset = "UTF-8">
+ <meta name = "description" content = "To-Do-List Page">
+ <meta name = "keywords" content = "HTML, CSS, Javascript">
+ <meta name = "author" content = "Harish Kumar">
+ <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"> 
+ <link rel = "stylesheet" href = "{{ url_for('static', filename='css/styles.css') }}">
+ <script type = "text/javascript" src = "script.js"></script>
+</head>
+<body>
+ <div class = "main">
+  <input id = "value" placeholder = "Add an Item!">
+  <button id = "sub" onclick = "disp()">Submit</button>
+  <button id = "clear" onclick = "clearing()">Clear List</button>
+ </div>
+ <p id = "output"></p>
+</body>
+</html>
